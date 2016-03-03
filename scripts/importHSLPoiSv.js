@@ -38,19 +38,18 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
     user: 'hsldevcom',
     type: 'localization',
 
-    in: {
-      text: record.name_sv + ', ' + record.locality
-    },
+      in: {
+	text: record.name_sv + ', ' + record.locality
+      },
     expected: {
       properties: [
-        {
-          // enable name property for strict name comparison
-          // name: record.name,
-          locality: record.locality
-        }
+	        { // enable name property for strict name comparison
+		  // name: record.name,
+		  locality: record.locality
+		}
       ],
       coordinates: [
-        proj4('EPSG:2392','WGS84',[record.xpos, record.ypos])
+	proj4('EPSG:2392','WGS84',[record.xpos, record.ypos])
       ]
     }
   };
