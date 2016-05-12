@@ -1,7 +1,6 @@
 var csv_parse = require('csv-parse');
 var fs = require('fs');
 var through = require('through2');
-
 var importTestCases = require('./testCaseImporter');
 var csv_parser = csv_parse({ delimiter: '|', columns: true});
 var filename = process.argv[2];
@@ -17,12 +16,12 @@ proj4.defs([
 ]);
 
 var test_file_json = {
-  name: 'HSL poi tests',
-  description: 'A poi list in Helsinki region',
+  name: 'Corrected sddresses tests',
+  description: 'A list of manually corrected addresses in Helsinki region',
   priorityThresh: 4,
-  distanceThresh: 500, // meters
+  distanceThresh: 200, // meters
   normalizers: {
-    name: [ 'toUpperCase', 'removeNumbers']
+    name: [ 'toUpperCase']
   },
 };
 
@@ -35,7 +34,7 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
     status: 'pass',
     user: 'hsldevcom',
     in: {
-      text: record.name + ', ' + record.locality
+      text: record.number + ' ' + record.street + ' st, ' + record.locality
     },
     expected: {
       properties: [
@@ -57,6 +56,6 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
 
 var full_stream = read_stream.pipe(csv_parser).pipe(testCaseStream);
 
-var prefix = 'HslPoiTest';
+var prefix = 'HslCorrectedTest';
 
 importTestCases(prefix, test_file_json, full_stream, 5000);

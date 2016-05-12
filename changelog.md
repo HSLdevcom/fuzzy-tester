@@ -1,3 +1,17 @@
+0.6.1 / 2016-04-04
+==================
+
+Bug fixes:
+* Output from large test suites is no longer truncated
+  See https://github.com/pelias/fuzzy-tester/pull/44
+
+0.5.1 / 2016-03-28
+==================
+
+Bug fixes:
+* Backport usage of http.Agent to limit maximum concurrent requests to 1
+  This helps avoid overloading small clusters during testing
+
 0.6.0 / 2016-01-06
 ==================
 
