@@ -161,7 +161,7 @@ revGeocoder._read = function () {
     revGeocoder.push(null); // done
     console.log('Test written to ' + testName + '.json');
   } else {
-      revGeocodeDoc( function (doc) {
+    revGeocodeDoc( function (doc) {
       var test = {
 	id: count,
 	status: 'pass',
@@ -183,9 +183,7 @@ revGeocoder._read = function () {
       };
       revGeocoder.push(test);
       count = count+1;
-      if ((count%10)===0) {
-	process.stdout.write('Done ' + count +'\033[0G');
-      }
+      process.stdout.write('Done ' + count +'\033[0G');
     });
   }
 };
