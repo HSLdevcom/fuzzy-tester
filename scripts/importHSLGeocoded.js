@@ -2,6 +2,7 @@
 var http = require('http');
 var importTestCases = require('./testCaseImporter');
 var Readable = require('stream').Readable;
+var sleep = require('sleep');
 
 // number of tests to generate
 var testCount = parseInt(process.argv[2]) || 1000;
@@ -15,7 +16,7 @@ var test_file_json = {
   name: 'reittiopas geocoding comparison test',
   description: 'Test if random reverse geocoding results from reittiopas.fi API can be found',
   priorityThresh: 3,
-  distanceThresh: 200, // meters
+  distanceThresh: 300, // meters
   normalizers: {
     name:['toUpperCase']
   }
@@ -70,11 +71,13 @@ revGeocoder._read = function () {
     revGeocoder.push(null); // done
     console.log('Test written to ' + testName + '.json');
   } else {
-      revGeocodeDoc( function (doc) {
+    sleep.sleep(2);
+    revGeocodeDoc( function (doc) {
       var test = {
 	id: count,
 	status: 'pass',
 	user: 'hsldevcom',
+	type: 'hsl',
 	  in: {
 	    text: doc.name,
 	  },
@@ -92,9 +95,7 @@ revGeocoder._read = function () {
       };
       revGeocoder.push(test);
       count = count+1;
-      if ((count%10)===0) {
-	process.stdout.write('Done ' + count +'\033[0G');
-      }
+      process.stdout.write('Done ' + count +'\033[0G');
     });
   }
 };

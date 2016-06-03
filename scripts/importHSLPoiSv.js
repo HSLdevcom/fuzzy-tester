@@ -21,8 +21,8 @@ var test_file_json = {
   name: 'HSL poi tests for swedish names',
   description: 'A swedish poi list in Helsinki region',
   source: 'digitransit@195.255.176.166/ftproot/rnj/poi.zip',
-  priorityThresh: 4,
-  distanceThresh: 500, // meters
+  priorityThresh: 3,
+  distanceThresh: 300, // meters
   normalizers: {
     name: [ 'toUpperCase', 'removeNumbers']
   },

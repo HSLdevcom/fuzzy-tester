@@ -14,7 +14,7 @@ var key = process.argv[3] || 1;
 var test_file_json = {
   name: 'HSL address tests',
   description: 'Address list from an old OpenAddresses entry for Helsinki region',
-  priorityThresh: 4,
+  priorityThresh: 3,
   distanceThresh: 300, // meters
   normalizers: {
     name: [ 'toUpperCase']
@@ -32,6 +32,7 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
     id: count,
     status: 'pass',
     user: 'hsldevcom',
+    type: 'address',
     in: {
       text: record.STREET + ' ' + record.NUMBER + ', ' + record.CITY
     },

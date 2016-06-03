@@ -5,6 +5,7 @@ var Readable = require('stream').Readable;
 var parseString = require('xml2js').parseString;
 var iconv = require('iconv-lite');
 var through = require('through2');
+var sleep = require('sleep');
 
 // number of tests to generate
 var testCount = parseInt(process.argv[2]) || 1000;
@@ -29,7 +30,7 @@ var test_file_json = {
   name: 'matka.fi geocoding comparison test',
   description: 'Test if random reverse geocoding results from matka.fi API can be found',
   priorityThresh: 3,
-  distanceThresh: 200, // meters
+  distanceThresh: 300, // meters
   normalizers: {
     name:['toUpperCase']
   }
@@ -123,6 +124,7 @@ function geocodeDoc(name, sendDoc) {
 }
 
 function revGeocodeDoc(sendDoc) {
+  sleep.sleep(1);
   var parseResponse = function(body) {
     var name = null;
     if (body !== '') {
@@ -166,6 +168,7 @@ revGeocoder._read = function () {
 	id: count,
 	status: 'pass',
 	user: 'hsldevcom',
+	type: 'national',
 	  in: {
 	    text: doc.name,
 	  },

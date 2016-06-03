@@ -20,8 +20,8 @@ proj4.defs([
 var test_file_json = {
   name: 'Corrected sddresses tests',
   description: 'A list of manually corrected addresses in Helsinki region',
-  priorityThresh: 4,
-  distanceThresh: 200, // meters
+  priorityThresh: 3,
+  distanceThresh: 300, // meters
   normalizers: {
     name: [ 'toUpperCase']
   },
@@ -35,6 +35,7 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
     id: count,
     status: 'pass',
     user: 'hsldevcom',
+    type: 'address',
     in: {
       text: record.number + ' ' + record.street + ' st, ' + record.locality
     },
