@@ -9,6 +9,8 @@ var read_stream = fs.createReadStream(filename);
 
 // import only % of test addresses.
 // set key value to variate the test: for example 'node importAddr.js helsinki.csv 31'
+// include street name + number into expected props
+
 var key = process.argv[3] || 1;
 key = parseInt(key);
 
@@ -33,7 +35,7 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
     id: count,
     status: 'pass',
     user: 'hsldevcom',
-    type: 'address',
+    type: 'streetname',
     in: {
       text: record.STREET + ' ' + record.NUMBER + ', ' + record.CITY
     },
