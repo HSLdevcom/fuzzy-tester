@@ -37,7 +37,7 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
     user: 'hsldevcom',
     type: 'address',
     in: {
-      text: record.street + record.number + ',' + record.locality
+      text: record.street + ' ' + record.number + ', ' + record.locality
     },
     expected: {
       properties: [
