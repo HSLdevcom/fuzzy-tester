@@ -20,8 +20,8 @@ proj4.defs([
 var test_file_json = {
   name: 'HSL poi tests',
   description: 'A poi list in Helsinki region',
-  priorityThresh: 4,
-  distanceThresh: 500, // meters
+  priorityThresh: 3,
+  distanceThresh: 300, // meters
   normalizers: {
     name: [ 'toUpperCase', 'removeNumbers']
   },
@@ -35,6 +35,7 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
     id: count,
     status: 'pass',
     user: 'hsldevcom',
+    type: 'poi',
     in: {
       text: record.name + ', ' + record.locality
     },
