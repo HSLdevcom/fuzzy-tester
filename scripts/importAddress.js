@@ -44,7 +44,7 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
         {
           // enable name property for strict name comparison
           name: record.STREET + ' ' + record.NUMBER,
-          locality: record.CITY
+          localadmin: record.CITY
         }
       ],
       coordinates: [
