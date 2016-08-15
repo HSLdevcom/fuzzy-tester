@@ -52,7 +52,7 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
       ]
     }
   };
-  if(key === getRandomInt()) {
+  if(key === getRandomInt() && record.NUMBER !== '' && record.NUMBER !== '0') {
     count++;
     this.push(test);
   }
