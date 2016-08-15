@@ -27,6 +27,12 @@ var test_file_json = {
   },
 };
 
+var key = process.argv[3] || 1;
+key = parseInt(key);
+
+function getRandomInt() {
+  return Math.floor(Math.random() * 100);
+}
 
 var count = 0;
 
@@ -52,8 +58,10 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
       ]
     }
   };
-  count++;
-  this.push(test);
+  if(getRandomInt()<key) {
+    count++;
+    this.push(test);
+  }
   callback();
 });
 
