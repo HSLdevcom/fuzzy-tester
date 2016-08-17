@@ -8,6 +8,14 @@ var csv_parser = csv_parse({ delimiter: '|', columns: true});
 var filename = process.argv[2];
 var read_stream = fs.createReadStream(filename);
 
+// import only given % of test addresses.
+var importRate = process.argv[3] || 100;
+importRate = parseInt(importRate);
+
+function getRandomInt() {
+  return Math.floor(Math.random() * 100);
+}
+
 var proj4 = require('proj4'); // for transforming source data into wgs84
 proj4.defs([
   [
@@ -44,7 +52,7 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
         {
           // enable name property for strict name comparison
           // name: record.name,
-          locality: record.locality
+          localadmin: record.locality
         }
       ],
       coordinates: [
@@ -52,8 +60,10 @@ var testCaseStream = through({objectMode: true}, function(record, encoding, call
       ]
     }
   };
-  count++;
-  this.push(test);
+  if(importRate >= getRandomInt()) {
+    count++;
+    this.push(test);
+  }
   callback();
 });
 

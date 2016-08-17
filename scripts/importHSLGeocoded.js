@@ -85,7 +85,7 @@ revGeocoder._read = function () {
 	  properties: [
             {
 	      // name: doc.name.replace(doc.city, '').replace(',', '').trim();
-	      locality: doc.city
+	      localadmin: doc.city
 	    }
 	  ],
 	  coordinates: [

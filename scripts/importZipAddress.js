@@ -9,14 +9,14 @@ var read_stream = fs.createReadStream(filename);
 
 // import only % of test addresses.
 // set key value to variate the test: for example 'node importAddr.js helsinki.csv 31'
-// include street name + number into expected props
+// include street name, number and zipcode into expected props
 
 var key = process.argv[3] || 1;
 key = parseInt(key);
 
 var test_file_json = {
-  name: 'HSL address tests',
-  description: 'Address list from an old OpenAddresses entry for Helsinki region',
+  name: 'OpenAddress data test for street address with a zipcode',
+  description: 'Address list from an OpenAddresses entry',
   priorityThresh: 3,
   distanceThresh: 300, // meters
   normalizers: {
@@ -31,30 +31,31 @@ function getRandomInt() {
 var count = 0;
 
 var testCaseStream = through({objectMode: true}, function(record, encoding, callback) {
-  var test = {
-    id: count,
-    status: 'pass',
-    user: 'hsldevcom',
-    type: 'streetname',
-    in: {
-      text: record.STREET + ' ' + record.NUMBER + ', ' + record.CITY
-    },
-    expected: {
-      properties: [
-        {
-          // enable name property for strict name comparison
-          name: record.STREET + ' ' + record.NUMBER,
-          localadmin: record.CITY
-        }
-      ],
-      coordinates: [
-        record.LON, record.LAT
-      ]
+  if(record.STREET !== '' && record.POSTCODE !== '') {
+    var test = {
+      id: count,
+      status: 'pass',
+      user: 'hsldevcom',
+      type: 'postalcode',
+        in: {
+          text: record.STREET + ' ' + record.NUMBER + ', '  + record.POSTCODE + ' Finland'
+        },
+      expected: {
+        properties: [
+          {
+            name: record.STREET + ' ' + record.NUMBER,
+            postalcode: record.POSTCODE
+          }
+        ],
+        coordinates: [
+          record.LON, record.LAT
+        ]
+      }
+    };
+    if(count < 1000 && key === getRandomInt()) {
+      count++;
+      this.push(test);
     }
-  };
-  if(key === getRandomInt() && record.NUMBER !== '' && record.NUMBER !== '0') {
-    count++;
-    this.push(test);
   }
   callback();
 });
