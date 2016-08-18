@@ -9,6 +9,8 @@ require( 'colors' );
 
 var util = require( 'util' );
 
+var percentageForDisplay = require('../lib/percentageForDisplay');
+
 /**
  * Format and print a test result to the terminal.
  */
@@ -67,6 +69,7 @@ function prettyPrintSuiteResults( suiteResults, config, testSuites ){
 
   console.log( '\nAggregate test results'.blue );
   console.log( 'Pass: ' + suiteResults.stats.pass.toString().green );
+  console.log( 'Improvements: ' + suiteResults.stats.improvement.toString().green);
   console.log( 'Fail: ' + suiteResults.stats.fail.toString().yellow );
   console.log( 'Placeholders: ' + suiteResults.stats.placeholder.toString().cyan );
 
@@ -74,10 +77,10 @@ function prettyPrintSuiteResults( suiteResults, config, testSuites ){
   var regressionsColor = ( numRegressions > 0 ) ? 'red' : 'yellow';
   var total = suiteResults.stats.pass +  suiteResults.stats.fail + suiteResults.stats.regression;
   var pass = total - numRegressions;
-  var percentage = pass * 100.0 / total;
+
   console.log( 'Regressions: ' + numRegressions.toString()[ regressionsColor ] );
   console.log( 'Took %sms', suiteResults.stats.timeTaken );
-  console.log( 'Test success rate %s%%', Math.round(percentage).toString());
+  console.log( 'Test success rate %s%%', percentageForDisplay(total,pass));
 
   console.log( '' );
   if( numRegressions > 0 ){
