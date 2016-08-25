@@ -3,7 +3,6 @@ var fs = require('fs');
 var through = require('through2');
 
 var importTestCases = require('./testCaseImporter');
-
 var csv_parser = csv_parse({ delimiter: '|', columns: true});
 var filename = process.argv[2];
 var read_stream = fs.createReadStream(filename);
