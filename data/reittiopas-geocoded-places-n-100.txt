@@ -1,0 +1,499 @@
+NAME,CITY
+Aleksanterin teatteri,Helsinki
+Talkoorinne 1,Espoo
+Thalian aukio,Helsinki
+Hotel Sello,Espoo
+Yliopistonkatu 3,Helsinki
+Itäkeskus Library,Helsinki
+Lassila,Helsinki
+Nuijamiestentie 10,Helsinki
+Rörstrandinkatu 3,Helsinki
+Lönnrotinkatu 13,Helsinki
+Revontulenkuja 1,Espoo
+Vironkatu 2,Helsinki
+Kunnalliskodintie 6,Helsinki
+Töölöntullinkatu 8,Helsinki
+Kulorastaantie 1,Vantaa
+Käenkuja 3,Helsinki
+Topeliuksenkatu 5,Helsinki
+Viikinkaari 5,Helsinki
+Pähkinärinne,Vantaa
+Fleminginkatu 34,Helsinki
+Jämeräntaival 11,Espoo
+Kallion lukio,Helsinki
+Pasteurinkatu 1,Helsinki
+Urheilutalo,Helsinki
+Nissas,Vantaa
+Hämeentie 161,Helsinki
+Suomenoja,Espoo
+Hakaniemi Square,Helsinki
+Ilmalantori 2,Helsinki
+Isonnevantie 8,Helsinki
+Kaikukatu 4,Helsinki
+Kemistintie 1,Espoo
+Kokkokalliontie 1,Helsinki
+Linnanmäki Amusement Park,Helsinki
+Mäkelänkatu 49,Helsinki
+Erottajanpuiston hostelli,Helsinki
+Ulvilantie 29,Helsinki
+Majurinkulma 2,Espoo
+Vantaanportinkatu 3,Vantaa
+Viljelijäntie 4,Helsinki
+Tammisto,Vantaa
+Kutomokuja 4,Helsinki
+Kuunsilta,Espoo
+Ulvilantie 11,Helsinki
+Kutojantie 1,Espoo
+Ruoholahti metroasema,Helsinki
+Sotungin lukio,Vantaa
+Näyttelijäntie 22,Helsinki
+Tikkurila Park and Ride,Vantaa
+Hotel Sokos Tapiola Garden,Espoo
+Martinlaaksontie 36,Vantaa
+Pasilanraitio 6,Helsinki
+Physicum Kumpula,Helsinki
+Siltakylänkuja 3,Helsinki
+Koskelan sairaala,Helsinki
+Kapteeninkatu 26,Helsinki
+Kauppakorkeakoulut,Helsinki
+Laakson sairaala,Helsinki
+Töölön ala-asteen koulu,Helsinki
+Kantvik,Kirkkonummi
+Keilaniementie 1,Espoo
+Kontula metroasema,Helsinki
+Helsinki-Vantaa lentoasema T1,Laituri 2,Vantaa
+Hanken,Helsinki
+Hämeentie 1,Helsinki
+Lapinrinne 1,Helsinki
+Mäkelänkatu 2,Helsinki
+Väinö Auerin katu 3,Helsinki
+Agricolankatu 1,Helsinki
+Kluuvi,Helsinki
+Opastinsilta 12,Helsinki
+Piispansilta 11,Espoo
+Malmin tori,Helsinki
+Rautalammintie 3,Helsinki
+Espoonlahti,Espoo
+Kuusilahdenkuja 1,Helsinki
+Tapiolansolmu,Espoo
+Siltavuorenpenger 10,Helsinki
+Maininkitie 4,Espoo
+Suvela,Espoo
+Asema-aukio 1,Helsinki
+Kasarmikatu 11-13,Helsinki
+Viikin kampus,Helsinki
+Arkadiankatu 21,Helsinki
+Hesperian puisto,Helsinki
+Kannelmäen asema,Helsinki
+Valimotie 17,Helsinki
+Telakkakatu 8,Helsinki
+Kirstinharju 1,Espoo
+Nikinmäki,Vantaa
+Haartmaninkatu 2,Helsinki
+Riihimäki
+Westend,Espoo
+Kylänevantie 16,Helsinki
+Tilanhoitajankaari 11,Helsinki
+Ylioppilastalo,Helsinki
+Katriinan sairaala,Vantaa
+Olympiastadion,Helsinki
+Konemies,Espoo
+Maapadontie 2,Helsinki
+Porkkalankatu 1,Helsinki
+Topeliuksenkatu 41,Helsinki
+Juhana Herttuan tie 3,Helsinki
+Mellunmäki metroasema,Helsinki
+Pihatörmä 1,Espoo
+Hanasaari,Espoo
+Pajamäki,Helsinki
+Siltakuja 2,Espoo
+Pariisinkuja 2,Helsinki
+Pohjoinen Hesperiankatu 17,Helsinki
+Helsinginkatu 1,Helsinki
+Meilahden liikuntapuisto,Helsinki
+Konala,Helsinki
+Mäkelänkatu 84,Helsinki
+Ruskeasuon varikko,Helsinki
+Central Railway Station,Helsinki
+Höyläämötie 1,Helsinki
+Matinniitynkuja 4,Espoo
+Otaniementie 17,Espoo
+Radiokatu 5,Helsinki
+Entresse kauppakeskus,Espoo
+Kaivoksela,Vantaa
+Kilonrinne 10,Espoo
+Lentoasema T2,Vantaa
+Helsinki-Vantaa Airport,Vantaa
+Maapadontie 5,Helsinki
+Jakomäentie 6,Helsinki
+Tennistie 1,Vantaa
+Tyynenmerenkatu 8,Helsinki
+Jätkäsaari,Helsinki
+Hämeentie 153,Helsinki
+Karstulantie 8,Helsinki
+Orionintie 1,Espoo
+Avaruuskatu 3,Espoo
+Hyljeluodontie 3,Espoo
+Olarin lukio,Espoo
+Otakaari 4,Espoo
+Eteläinen Rautatiekatu 4,Helsinki
+Järvenperä,Espoo
+Teollisuuskatu 21,Helsinki
+Kansaneläkelaitos,Helsinki
+Hakaniemenranta 12,Helsinki
+Mankkaa,Espoo
+Arabianranta,Helsinki
+Tuomarilan asema,Espoo
+Linja-autoasema,Helsinki
+Lapinmäentie 1,Helsinki
+Munkkiniemen aukio,Helsinki
+Helsinginkatu 26,Helsinki
+Rautatientori metroasema,Helsinki
+Finlandia-talo,Helsinki
+Helsingin päärautatieasema,Helsinki
+Karhunkierros 1,Vantaa
+Karakaari 7,Espoo
+Käenkuja 1,Helsinki
+Toinen Linja 4,Helsinki
+Hattulantie 1,Helsinki
+Kitarakuja 1,Helsinki
+Latokartanontie 12,Helsinki
+Kaustisenpolku 1,Helsinki
+Talontie 1,Helsinki
+Kutomotie 1,Helsinki
+Suurpelto,Espoo
+WeeGee-talo,Espoo
+Savio,Kerava
+Tukholmankatu 1,Helsinki
+Siltavuorenpenger 5,Helsinki
+Itsehallintotie 1,Espoo
+Jämeräntaival 1,Espoo
+Kaari,Helsinki
+Antti Korpin tie 4,Helsinki
+Mannerheimintie 46,Helsinki
+Helsinginkatu 24,Helsinki
+Muusantori 1,Helsinki
+Juustenintie 3,Helsinki
+Keilaranta 17,Espoo
+Lommila,Espoo
+Pohjolankatu 38,Helsinki
+Espoonlahden uimahalli,Espoo
+Kuninkaantien lukio,Espoo
+Viikinkaari 1,Helsinki
+Munkkiniemen puistotie 1,Helsinki
+Paavalin kirkko,Helsinki
+Westendinasema,Espoo
+Ida Aalbergin tie,Helsinki
+Malmin sairaala,Helsinki
+Ilkantie 4,Helsinki
+Mäkkylä,Espoo
+Westendin asema,Laituri 1,Espoo
+Tapanilan asema,Helsinki
+Jokiniementie 31,Vantaa
+Salmisaari,Helsinki
+Vantaanportti,Vantaa
+Lakelankatu 1,Espoo
+Niittykumpu,Espoo
+Kauppakeskus Kaari,Helsinki
+Porthania,Helsinki
+Kauppakorkeakoulu,Helsinki
+Rälssintie 16,Helsinki
+Kulosaari,Helsinki
+Tikkurilan lukio,Vantaa
+Avaruuskatu 1,Espoo
+Metsänpojankuja 1,Espoo
+Siltavuorenpenger 1,Helsinki
+Välimerenkatu 5,Helsinki
+Mannerheimintie 50,Helsinki
+Tasetie 8,Vantaa
+Itäkeskus metroasema,Helsinki
+Aleksis Kiven katu 1,Helsinki
+Metsänpojankuja 3,Espoo
+Areenankuja 1,Helsinki
+Jan-magnus Janssonin aukio 1,Helsinki
+Klaneettitie 1,Helsinki
+Kumpula,Helsinki
+Postintaival 7,Helsinki
+Takomotie 1,Helsinki
+Ruosilantie 1,Helsinki
+Helsingin asema,Helsinki
+Käpyläntie 1,Helsinki
+Runeberginkatu 14,Helsinki
+Rekola,Vantaa
+Kallio,Helsinki
+Ratapihantie 9,Helsinki
+Bulevardi 31,Helsinki
+Isonnevantie 16,Helsinki
+Ilmala,Helsinki
+Sonera Stadium,Helsinki
+Kettutie 8,Helsinki
+Otakaari 5,Espoo
+Pihlajamäki,Helsinki
+Helsinginkatu 25,Helsinki
+Latokaski,Espoo
+Saunalahti,Espoo
+Valimotie 1,Helsinki
+Akanapolku 2,Vantaa
+Helsinki Railway Station,Helsinki
+Vaskivuoren lukio,Vantaa
+Aleksanterinkatu 1,Helsinki
+Alvar Aallon kuja 1,Helsinki
+Kuusitie 1,Helsinki
+Töölönkatu 51,Helsinki
+Auroran sairaala,Helsinki
+Louhela,Vantaa
+Lääkärinkatu 8,Helsinki
+Karstulantie 6,Helsinki
+Prinsessantie 2,Helsinki
+Itämerenkatu 21,Helsinki
+Vuolukiventie 1,Helsinki
+Pukinmäen asema,Helsinki
+Keilalahdentie 2,Espoo
+Merihaka,Helsinki
+Unioninkatu 40,Helsinki
+Mäkelänrinteen lukio,Helsinki
+Töölön sairaala,Helsinki
+Biomedicum 1,Helsinki
+Huokotie 5,Helsinki
+Kirkkonummen asema,Kirkkonummi
+Mannerheimintie 164,Helsinki
+Tähkäkuja 5,Vantaa
+Viherlaakso,Espoo
+Kevätkatu 2,Helsinki
+Lehtimäki,Espoo
+Haartmaninkatu 8,Helsinki
+Tenholantie 10,Helsinki
+Pitäjänmäen asema,Helsinki
+Gesterby,Kirkkonummi
+Töölön Tulli 2,Helsinki
+Arentikuja 1,Helsinki
+Raumantie 1,Helsinki
+Espoon asema,Espoo
+Kalajärvi,Espoo
+Senaatintori,Helsinki
+Kutojantie 2,Espoo
+Aapelinkatu 5,Espoo
+Viikinkaari 11,Helsinki
+Keran asema,Espoo
+Leppävaara Park and Ride south,Espoo
+Karakallio,Espoo
+Nordenskiöldinkatu 1,Helsinki
+Valimo,Helsinki
+Koivuhovi liityntäpysäköinti,Espoo
+Porvoonkatu 1,Helsinki
+Tilkka,Helsinki
+Töölöntullinkatu 6,Helsinki
+Vanha Maantie 9,Espoo
+Santahamina,Helsinki
+Näätätie 20,Helsinki
+Karhupuisto,Helsinki
+Naistenklinikka,Helsinki
+Viiskulman terveysasema,Helsinki
+Väinö Auerin katu 1,Helsinki
+Siilitie liityntäpysäköinti,Helsinki
+Vantaankoski liityntäpysäköinti,Vantaa
+Valimotie 8,Helsinki
+Energiakatu 3,Helsinki
+Linnoituksentie 10,Helsinki
+Suomenlinna,Helsinki
+Forum,Helsinki
+Olari,Espoo
+Sibeliuksenkatu 14,Helsinki
+Helsinki keskusta,Helsinki
+Rantaharju 10,Espoo
+Musiikkitalo,Helsinki
+Ida Aalbergin tie 1,Helsinki
+Piispansilta 3,Espoo
+Kamppi metroasema,Helsinki
+Tyynenmerenkatu 11,Helsinki
+Sörnäinen metroasema,Helsinki
+Kulttuuritalo,Helsinki
+Hyvinkää
+Arcada,Helsinki
+Jakomäki,Helsinki
+Peijaksen sairaala,Vantaa
+Viikin tiedepuisto,Helsinki
+Peltokyläntie 3,Helsinki
+Heikintori,Espoo
+Peijas Hospital,Vantaa
+Käpylän asema,Helsinki
+Söderkulla,Sipoo
+Kätilöopisto,Helsinki
+Ikea Vantaa,Vantaa
+Pasila Railway Station,Helsinki
+Innopoli,Espoo
+Sturenkatu 4,Helsinki
+Messuaukio 1,Helsinki
+Fabianinkatu 33,Helsinki
+Alvar Aallon puisto,Espoo
+Vanha Viertotie 23,Helsinki
+Pasilanraitio 11,Helsinki
+Vuosaari metroasema,Helsinki
+Iivisniemi,Espoo
+Alppikatu 2,Helsinki
+Katajanokan terminaali,Helsinki
+Oulunkylän asema,Helsinki
+Tennispalatsi,Helsinki
+Hattulantie 2,Helsinki
+Munkkivuori,Helsinki
+Tallberginkatu 1,Helsinki
+Barona Areena,Espoo
+Käpylä,Helsinki
+Koivukylän asema,Vantaa
+Kirkkokatu 16,Espoo
+Hiekkaharju,Vantaa
+Huopalahden asema,Helsinki
+Lintukorventie 2,Espoo
+Mikkola,Vantaa
+Sturenkatu 2,Helsinki
+Mäkelänrinne indoor swimming centre,Helsinki
+Meilahti,Helsinki
+Haartmaninkatu 1,Helsinki
+Teekkarikylä,Espoo
+Veikkola,Kirkkonummi
+Munkkiniemi,Helsinki
+Jäähalli,Helsinki
+Makasiiniterminaali,Helsinki
+Puustellinmäki,Espoo
+Rastila,Helsinki
+Läntinen Brahenkatu 2,Helsinki
+Katajanokka,Helsinki
+Puistolan asema,Helsinki
+Lähderanta,Espoo
+Hakaniemen tori,Helsinki
+Kisahalli,Helsinki
+Kaupinkalliontie 3,Espoo
+Nihtisilta,Espoo
+Pohjois-Haaga,Helsinki
+Meilahdentie 2,Helsinki
+Nikkilä,Sipoo
+Lehtimäentie 1,Espoo
+Myyrmanni,Vantaa
+Mannerheimintie 1,Helsinki
+Kuusitie 5,Helsinki
+Mistelitie 26,Vantaa
+Ruskeasuo,Helsinki
+Lauttasaari,Helsinki
+Sofianlehdonkatu 5,Helsinki
+Vanha Maantie 6,Espoo
+Konemiehentie 2,Espoo
+Matinkylä,Espoo
+Puotila,Helsinki
+Kauppatori,Helsinki
+Helsingin jäähalli,Helsinki
+Hakunila,Vantaa
+Soukka,Espoo
+Kiasma,Helsinki
+Espoontori,Espoo
+Kalasatama metroasema,Helsinki
+Stockmann,Helsinki
+Jorvin sairaala,Espoo
+Korson asema,Vantaa
+Kurvi,Helsinki
+Pajuniityntie 11,Helsinki
+Martinlaakson asema,Vantaa
+Ikea Espoo,Espoo
+Itis,Helsinki
+Tapanila,Helsinki
+Tivolikuja 1,Helsinki
+Olympiaterminaali,Helsinki
+Flamingo,Vantaa
+Kampin keskus,Helsinki
+Leiritie 1,Vantaa
+Kaivokatu 1,Helsinki
+Teollisuuskatu 23,Helsinki
+Otakaari 1,Espoo
+Railway Station,Helsinki
+Töölöntori,Helsinki
+Kivenlahti,Espoo
+Töölönkatu 37,Helsinki
+Herttoniemi metroasema,Helsinki
+Ratapihantie 13,Helsinki
+Ruusutorpantie 4,Espoo
+Tuomarila,Espoo
+Meilahden sairaala,Helsinki
+Albertinkatu 32,Helsinki
+Myyrmäen asema,Vantaa
+Arabia,Helsinki
+Maunula,Helsinki
+Oulunkylä,Helsinki
+Kantelettarentie 1,Helsinki
+Rautatientori Metro Station,Helsinki
+Gustaf Hällströmin katu 2,Helsinki
+Masala,Kirkkonummi
+Espoo,Espoo
+Jorvi,Espoo
+Lippulaiva,Espoo
+Haartmaninkatu 4,Helsinki
+Myllypuro,Helsinki
+Oopperatalo,Helsinki
+Järvenpää
+Pitäjänmäki,Helsinki
+Lasipalatsi,Helsinki
+Mannerheimintie 172,Helsinki
+Keravan asema,Kerava
+Huopalahti liityntäpysäköinti,Helsinki
+Malminkartano,Helsinki
+Töölön kisahalli,Helsinki
+Tukholmankatu 10,Helsinki
+Airport,Vantaa
+Länsiterminaali,Helsinki
+Katajanokanlaituri 6,Helsinki
+Dipoli,Espoo
+Puistola,Helsinki
+Keskusta,Helsinki
+Hämeentie 135,Helsinki
+Kauklahti,Espoo
+Martinlaakso,Vantaa
+Kannelmäki,Helsinki
+Keskuskatu 2,Helsinki
+Kilo,Espoo
+Pukinmäki,Helsinki
+Kaapelitehdas,Helsinki
+Viikki,Helsinki
+Opastinsilta 8,Helsinki
+Leppävaaran asema,Espoo
+Malmin asema,Helsinki
+Linnankatu 9,Helsinki
+Steissi,Helsinki
+Kauniainen,Kauniainen
+Kumpulan kampus,Helsinki
+Kontula,Helsinki
+Länsisatama,Helsinki
+Koivukylä,Vantaa
+Vuosaari,Helsinki
+Kamppi terminal,Helsinki
+Lentokenttä,Vantaa
+Kaisaniemi metroasema,Helsinki
+Helsinki-Vantaan lentoasema,Vantaa
+Messukeskus,Helsinki
+Hartwall Areena,Helsinki
+Ruoholahti,Helsinki
+Mellunmäki,Helsinki
+Otaniemi,Espoo
+Helsingin rautatieasema,Helsinki
+Kirkkonummi,Kirkkonummi
+Kerava,Kerava
+Tapiola,Espoo
+Korso,Vantaa
+Herttoniemi,Helsinki
+Jumbo,Vantaa
+Tikkurilan asema,Vantaa
+Lentoasema,Vantaa
+Myyrmäki,Vantaa
+Hakaniemi metroasema,Helsinki
+Iso Omena,Espoo
+Malmi,Helsinki
+Espoon keskus,Espoo
+Sörnäinen,Helsinki
+Sello,Espoo
+Pasilan asema,Helsinki
+Itäkeskus,Helsinki
+Elielinaukio,Helsinki
+Tikkurila,Vantaa
+Pasila,Helsinki
+Leppävaara,Espoo
+Helsinki,Helsinki
+Rautatieasema,Helsinki
+Rautatientori,Helsinki
+Kamppi,Helsinki

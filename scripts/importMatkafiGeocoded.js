@@ -11,7 +11,10 @@ var sleep = require('sleep');
 var testCount = parseInt(process.argv[2]) || 1000;
 var testName = 'CompareMatkaFi';
 
-var baseURL = 'http://api.matka.fi/?user=vesameskanen&pass=Soj9vjkl';
+var user = process.env.GEOCODEUSER; // init these to valid matka.fi API crendentials
+var pass = process.env.GEOCODEPASSWORD;
+
+var baseURL = 'http://api.matka.fi/?user='+user+'pass='+pass;
 
 var proj4 = require('proj4'); // for transforming source data into wgs84
 proj4.defs([
