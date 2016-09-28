@@ -11,6 +11,10 @@ var read_stream = fs.createReadStream(filename);
 // number of tests to generate
 var testName = 'HSLTop500';
 
+
+var user = process.env.GEOCODEUSER; // init these to valid reittiopas API crendentials
+var pass = process.env.GEOCODEPASSWORD;
+
 var count = 0;
 
 var test_file_json = {
@@ -27,7 +31,7 @@ function geocodeDoc(str, callback) {
   str=
   http.get({
     host: 'api.reittiopas.fi',
-    path: '/hsl/prod/?user=vesameskanen&pass=Soj9vjkl&request=geocode&epsg_out=4326&key='+
+    path: '/hsl/prod/?user='+user+'&pass='+pass+'&request=geocode&epsg_out=4326&key='+
            encodeURIComponent(str)
   },
   function(response) {

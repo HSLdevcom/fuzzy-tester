@@ -8,6 +8,9 @@ var sleep = require('sleep');
 var testCount = parseInt(process.argv[2]) || 1000;
 var testName = 'CompareOldReittiopas';
 
+var user = process.env.GEOCODEUSER; // init these to valid reittiopas API crendentials
+var pass = process.env.GEOCODEPASSWORD;
+
 console.log('Generating ' + testCount + ' tests');
 
 var count = 0;
@@ -38,7 +41,7 @@ function revGeocodeDoc(callback) {
   }
   http.get({
     host: 'api.reittiopas.fi',
-    path: '/hsl/prod/?user=vesameskanen&pass=Soj9vjkl&request=reverse_geocode&'+
+    path: '/hsl/prod/?user='+user+'pass='+pass+'&request=reverse_geocode&'+
       'epsg_in=4326&epsg_out=4326' + type + coordinate
   }, function(response) {
     // Continuously update stream with data
