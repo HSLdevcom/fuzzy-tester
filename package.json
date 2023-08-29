@@ -54,7 +54,7 @@
     "through2": "^2.0.0",
     "xml2js": "^0.4.16",
     "iconv-lite": "^0.4.13",
-    "sleep": "^3.0.1"
+    "sleep": "^6.3.0"
   },
   "repository": {
     "type": "git",
